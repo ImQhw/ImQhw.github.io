@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://ImQhw.github.io</id>
+    <title>Gridea</title>
+    <updated>2023-08-23T13:21:51.565Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://ImQhw.github.io"/>
+    <link rel="self" href="https://ImQhw.github.io/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https://ImQhw.github.io/images/avatar.png</logo>
+    <icon>https://ImQhw.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[编程中的字符编码问题]]></title>
+        <id>https://ImQhw.github.io/post/bian-cheng-zhong-de-zi-fu-bian-ma-wen-ti/</id>
+        <link href="https://ImQhw.github.io/post/bian-cheng-zhong-de-zi-fu-bian-ma-wen-ti/">
+        </link>
+        <updated>2023-08-23T12:44:24.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="charset-encoding">Charset &amp; Encoding</h2>
+<p>字符编码的问题一般出现在处理文本资源的时候，或者需要在不同程序之间传递数据的时候。字符编码的问题比较多样，但是只要明确了一些基本概念，就能比较快速的搜索到需要的信息，从而解决问题。<br>
+首先明确“字符集”和“字符编码”的概念：</p>
+<ol>
+<li>
+<p><strong>字符集（charset）</strong>：字符集顾名思义就是“字符的集合”。一个“字符集”定义了一组符号，这组符合组成了该字符集。例如ASCII字符集包含：大小写字母+数字+一些控制字符等；GB2312字符集包含了汉字及符号、字母、日文假名等共7445个图形字符。字符集种类很多，不同字符集包含不同种类和数量的字符。直观上，字符集定义的是一组图形符号（例如A，B，C，..., Z），为了使得计算机能处理和传输不同的字符，我们还需要定义一种将字符集中的每个字符映射为一个唯一的二进制编码的方法。这就是“字符编码”。</p>
+</li>
+<li>
+<p><strong>字符编码（encoding）</strong>：字符编码就是将图形字符映射为二进制编码的过程，从而使得计算机可以存储、传输这些图形文本（例如一段文字、一串数字等）。每种字符集都需要定义自己的字符编码方式。常见的编码方式例如：ASCII编码，采用一个字节编码，字符‘A’被编码为65，字符‘B’编码为66等等。</p>
+</li>
+</ol>
+<p>明确了字符集和字符编码的概念之后，下面介绍一下unicode字符集和utf-8字符编码。</p>
+<h2 id="unicode">Unicode</h2>
+<p>https://www.cnblogs.com/cdaniu/p/15258328.html</p>
+]]></content>
+    </entry>
+</feed>
